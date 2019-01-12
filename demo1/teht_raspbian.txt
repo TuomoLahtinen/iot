@@ -1,0 +1,8 @@
+
+Tehtävä 1.2 Raspbian
+
+Minulla ei ollut käytössä näppäimistöä, mutta hiiri ja näyttö olivat + hdmi kaapeli.
+Kytkin Raspberryyn virran ja se asensi Raspbian käyttiksen.
+Työpöytänäkymän auetessa avautui myös raspberry pi configuration, josta pääsin muuttamaan aikavyöhykkeen, maan jne.
+Salasanan vaihto meni vähän erikoisesti kun loin tiedoston, jonka nimen sitten kopsasin uudeksi salasanaksi kun ei näppäimistöä ollut.
+Päivitykset ajoin useamman päivän myöhemmin kun yhdistin Raspberryn koti wifiin.

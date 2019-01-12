@@ -1,0 +1,17 @@
+
+
+teht 1.4 Raspbianin kirjoittaminen
+
+- Latasin Raspbian Strech käyttiksen linkin kautta, joka materiaaleissa tarjottiin.
+- Ensimmäinen ongelma oli että muistikortin kooksi tietokone ilmoitti 3gb joka ei riittänyt ollenkaan käyttöjärjestelmän siirtämiseen sinne.
+  Hetki meni ennenkuin löysin miten saan muistikortin koko kapasiteetin käyttöön. 
+  CMD auki ja sinne komentoja:
+	- Diskpart
+	- list disk
+	- select disk1
+	- clean
+	Tämän jälkeen levynhallinnasta alustin muistikortin uudestaan ja nyt oli käytössä koko kapasiteetti. Jotenkin liittyy siihen ettei Microsoftin kone tunnista muistikortilta
+	kuin yhden osan kun muistikortti on jaettu osiin.
+
+- Nyt piti vielä saada käyttöjärjestelmän img näköislevy muutettua oikeaan muotoon, jotta Raspberry osaisi sen asentaa.
+  Latasin balena Etcher ohjelman, jolla sain purettua tiedoston suoraan muistikortille oikeassa muodossa ja nyt Raspberry oli kortilla oikeassa muodossa ja valmiina asennettavaksi.

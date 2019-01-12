@@ -1,19 +1,18 @@
 
-Kaikki kohdat tehtynä (12p), löytyvät kansiosta demo1.
-1.1: Git-repo on perustettu ja opettajat pääsevät siihen käsiksi: 3 p
-1.2: Rasbpian on asennettu ja asetukset on asetettu: 4 p
-1.3: Etäyhteys toimii: 3 p
-1.4: BONUS: Raspbian kirjoitettu kortille itse 2 p
 
-asennusaikana käytetty Pi:n IP-osoite: 169.254.153.232
+Tehtävä 1.3 Etäyhteys
 
 etäyhteyttä varten tarvitut komennot:
 - Asennuksessa käytin ethernet kaapelia, mutta jatkossa yhdistän wifin kautta
 - Asennuksessa sain Raspberryn IP-osoitteen luettua tv-näytöltä (169.254.153.232)
 - Putty auki ja sinne tuo IP-osoite
 - Raspberryn käyttäjätunnuksen ja salasanan syöttö ja sisällä oltiin
-- Tämän jälkeen laitoin wifin käyttöön
+
+- Muutaman päivän päästä Raspberryn asentamisesta yhdistin Raspin ekan kerran nettiin koti wifissä.
+- Ensin SSH yhteys auki läppärin ja Raspin välillä
 - sudo nano /etc/network/interfaces
 	- Jossa kävin kirjaamassa wlan0 yhteyden tiedot (automaattinen yhdistäminen, verkon nimi ja osoite)
 	- Ctrl+x + k + enter
 - sudo reboot
+- Kävin http://reitittimen ip tarkastamassa yhdistetyt laitteet, josta sain Raspin IP:n
+- Uudelleen SSH yhteys läppärin ja Raspin välille, mutta nyt reitittimen kautta IP:llä 192.168.0.104
