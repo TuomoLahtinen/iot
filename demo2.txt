@@ -1,0 +1,5 @@
+
+Kaikki kohdat tehtynä (10p), koodit löytyvät kansiosta demo2 + kuvat kytkennöistä.
+Videot valojen toiminnasta löytyvät http://users.jyu.fi/~tutalaht/iot/
+
+Liiketunnistimen käytössä oli ainoita ongelmia. Tunnistin havaitsi todella herkästi liikettä ja vasta kun käänsin tolerancen aivan pienimmilleen niin sain "ei liikettä".
