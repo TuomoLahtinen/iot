@@ -1,5 +1,5 @@
 
-Tässä koodi millä otin videon video löytyy -> (http://users.jyu.fi/~tutalaht/iot/). Kokeilin myös suoraan komentaa Bashissa
+Tässä koodi millä otin videon. Video ja kuva löytyvät -> (http://users.jyu.fi/~tutalaht/iot/). Kokeilin myös suoraan komentaa Bashissa
 raspivid ja raspistill. Kaikki toimivat, mutta tuota aikaa en oikein tiedä miten
 toimii kun eiväthän nuo videot ole sitä 15sek vaikka sen olen määrittänyt aina
 komennoissa. Kuva kokoa pienensin myös -dec komennolla, joka puolittaa kuvan/videon
