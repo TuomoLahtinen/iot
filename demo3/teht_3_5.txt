@@ -1,0 +1,25 @@
+
+Crontab -e
+ja nanolla
+
+@reboot python /media/usb/iot/python kuva_tunnin_valein.py
+
+Tein lokin (loki.txt) jonne tuli ilmoitus aina kun kamera otti kuvan
+
+Kuva otettu Sun Jan 27 21:14:11 2019
+Kuva otettu Sun Jan 27 21:15:12 2019
+Kuva otettu Sun Jan 27 21:17:50 2019
+Kuva otettu Sun Jan 27 21:24:57 2019
+Kuva otettu Sun Jan 27 21:27:35 2019
+Kuva otettu Sun Jan 27 21:28:05 2019
+Kuva otettu Sun Jan 27 21:30:45 2019
+Kuva otettu Sun Jan 27 21:32:52 2019
+
+Asetin kameran kuvaamaan 1min välein, mutta tuossa puuhastellessa tuli aika paljon
+katkoja kuvaukseen. Koodissa oli myös tunnin välein valmius joka olisi ottanut kuvia
+aina kun minuutit ovat ??:00
+
+Ohjelma jäi taustalle hyvin pyörimään ja estikin minun kokeilut kun koodia yritin muokkailla
+ja ajaa uudestaan. Ongelma tuossa koodissa on se että kamera alustetaan uudelleen monta
+kertaa jolloin se kuormittuu ja lopettaa toimintansa. Olisi varmaan pitänyt parametrina viedä
+ja luoda kamera vain alussa kerran.
