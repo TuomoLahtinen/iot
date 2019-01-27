@@ -1,0 +1,12 @@
+
+Teht 3.2
+
+"client_email": "push-raspi@tiea345.iam.gserviceaccount.com"
+
+JSON tiedoston siirsin Raspille muistitikulla. Asetin yhden usb portin toimimaan muistikun kanssa, jolla saan siirreltyä tiedostoja mukavasti.
+Koneen ja Raspin välillä on ollut hieman jotain ongelmia ja Raspilla eivät esim git clone komennot ole toimineet ja olen siirtänyt ensin tiedostot koneelle ja
+tikulla Raspille.
+
+Sain sensorin helposti toimimaan ja antamaan dataa. Kuitenkin Autentikointi tuotti ongelmia. Valmis koodi mikä Adafruitilta löytyi ei toiminut ollenkaan ilman muutoksia.
+Piti Scope osioon lisätä toinen osoite (https://googleapis.com/auth/drive) ja datetime() ei toimi ja se esti datan lähetyksen Google Sheetsiin. Ilmeisesti datetime() ongelmana on että se ei ole tekstimuodossa ja sitä
+ei voi täten kirjoittaa Sheetsiin. Otin ajan pois ja sitten data alkoi siirtyä nätisti Sheetsiin, (time.asctime(time.localtime(time.time())) sai ajankin siirrettyä Sheetsiin). Aika paljon googlailua vaati tämä tehtävä :D
