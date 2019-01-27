@@ -1,0 +1,16 @@
+
+Tässä koodi millä otin videon video löytyy -> (http://users.jyu.fi/~tutalaht/iot/). Kokeilin myös suoraan komentaa Bashissa
+raspivid ja raspistill. Kaikki toimivat, mutta tuota aikaa en oikein tiedä miten
+toimii kun eiväthän nuo videot ole sitä 15sek vaikka sen olen määrittänyt aina
+komennoissa. Kuva kokoa pienensin myös -dec komennolla, joka puolittaa kuvan/videon
+korkeuden ja leveyden.
+
+from picamera import PiCamera
+import time
+
+cam = PiCamera()
+cam.resolution = (640, 480) #Videon resoluution pienentäminen
+
+cam.start_recording('video.h264')
+time.sleep(15)
+cam.stop_recording()
