@@ -1,0 +1,17 @@
+
+
+- Ensin asensin apache2:sen komennolla: sudo apt-get install apache2 -y
+- Testasin että webbi serveri toimii käymällä omalla läppärillä sivulla http://192.168.0.104
+- Menin Raspberryllä kansioon: cd /var/www/html/
+- Avasin index tiedoston: nano index.html
+- Muokkasin default sivun uuteen muotoon: katso kuva apache_palvelin.png demo3 kansiossa
+
+<html>
+<h1>Tänne tallennetaan uudet Raspberry Pi:n ottamat kuvat</h1>
+<br>
+<li><ol><strong><a href="kuva.jpg">kuva.jpg</a>
+</strong></ol></li>
+</html>
+
+- Laitoin kuvan linkkinä sivulle, josta sen saa auki kivasti
+- Vain omassa verkossa toimii palvelin
