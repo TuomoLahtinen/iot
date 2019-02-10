@@ -1,0 +1,4 @@
+Demo5 (4p)
+Teht 5.2 tunnistimella toteutettuna
+
+Toteutin suoraan demo2 tavalla kytkennät ja koodin muutin c:ksi.

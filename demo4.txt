@@ -1,4 +1,6 @@
 
-Demoista 4 tehtynä 4.5 opencv:n asennus. Kuva löytyy Git:istä.
+Demoista 4 tehtynä 4.5 opencv:n asennus jo aiemmin
 
-Asennus sujui nopeasti ja ilman ihmeempiä ongelmia. Projekti kansio cv meni jotenkin aivan väärään paikkaan kuitenkin ja piti sitä metsästää tovi.
+Nyt
+
+tehtävät 4.6, 4.7 ja 4.8 (3op)
