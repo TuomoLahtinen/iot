@@ -3,6 +3,11 @@ Teht 5.2 tunnistimella toteutettuna
 
 Toteutin suoraan demo2 tavalla kytkennÃ¤t ja koodin muutin c:ksi.
 
+WiringPi asennus
+git clone git://git.drogon.net/wiringPi
+cd wiringPi
+./build
+
 Kääntökoodi
 gcc -o liikennevalot liikennevalot.c -l wiringPi
 
