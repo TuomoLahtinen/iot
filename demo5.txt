@@ -2,3 +2,9 @@ Demo5 (4p)
 Teht 5.2 tunnistimella toteutettuna
 
 Toteutin suoraan demo2 tavalla kytkennÃ¤t ja koodin muutin c:ksi.
+
+Kääntökoodi
+gcc -o liikennevalot liikennevalot.c -l wiringPi
+
+Ja ajo
+sudo ./liikennevalot
